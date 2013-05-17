@@ -1,5 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
+<%@ page pageEncoding="UTF-8" %>
 <html>
 <head>
 	<title>Hello Spring MySQL</title>
@@ -20,6 +21,7 @@
 	</c:if>
 	<c:if test="${empty states}">
 		<p>No States found</p>
+		<p>测试</p>
 	</c:if>
 </body>
 </html>
